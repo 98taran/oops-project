@@ -22,6 +22,15 @@ class DatabaseManager:
                 'role': 'Admin'
             })
 
+        # Create default consumer if not exists
+        if not self.users_db.search(User.username == 'consumer'):
+            self.users_db.insert({
+                'name': 'Test Consumer',
+                'username': 'consumer',
+                'password': '123',
+                'role': 'Consumer'
+            })
+
     def verify_login(self, username, password):
         User = Query()
         result = self.users_db.search(User.username == username)

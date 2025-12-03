@@ -59,7 +59,7 @@ class SaleManager:
                 {
                     "medicine_name": item['batch'].medicine.name,
                     "batch_no": item['batch'].batch_no,
-                    "expiry": item['batch'].expiry,
+                    "expiry_date": item['batch'].expiry_date,
                     "qty": item['qty'],
                     "mrp": item['batch'].medicine.mrp
                 }
@@ -71,3 +71,29 @@ class SaleManager:
 
     def get_all_sales(self):
         return self.load_sales()
+
+    def sell_batch(self, batch, quantity):
+        """Sell medicine from a batch and record the sale."""
+        from core.inventory import InventoryManager
+        
+        if quantity <= 0 or quantity > batch.quantity:
+            raise ValueError("Invalid quantity")
+        
+        if batch.is_expired():
+            raise ValueError("Cannot sell expired medicine")
+        
+        # Create sale record
+        sale = Sale(
+            sale_id=self.get_next_sale_id(),
+            customer_name="Customer",  # Will be updated later for consumer tracking
+            items_list=[{"batch": batch, "qty": quantity}],
+            total_amount=quantity * batch.medicine.mrp
+        )
+        
+        # Record the sale
+        self.add_sale(sale)
+        
+        # Update inventory - reduce quantity
+        batch.quantity -= quantity
+        inventory_mgr = InventoryManager()
+        inventory_mgr._save_to_disk()

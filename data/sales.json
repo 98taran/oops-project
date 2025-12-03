@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "sale_id": 1,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 2,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 3,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 4,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 5,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 6,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 7,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 8,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 9,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 10,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  },
+  {
+    "sale_id": 11,
+    "date": "2025-12-04",
+    "customer_name": "Customer",
+    "total_amount": 100.0,
+    "items": [
+      {
+        "medicine_name": "Aspirin",
+        "batch_no": "B001",
+        "expiry_date": "2026-12-31",
+        "qty": 1,
+        "mrp": 100.0
+      }
+    ]
+  }
+]
