@@ -1,0 +1,32 @@
+[
+  {
+    "batch_no": "PCTM650",
+    "medicine": {
+      "med_id": "MP6",
+      "name": "Paracetamol 650",
+      "company": "paracetamol",
+      "salt": "paracetamol",
+      "mrp": 55.0,
+      "purchase_price": 42.0
+    },
+    "expiry_date": "2026-01-15",
+    "quantity": 42,
+    "purchase_price": 42.0,
+    "added_date": "2025-12-03"
+  },
+  {
+    "batch_no": "AZ500-23K",
+    "medicine": {
+      "med_id": "MAL",
+      "name": "Alkem Laboratories",
+      "company": "Azithral 500",
+      "salt": "Azithromycin 500 mg",
+      "mrp": 131.0,
+      "purchase_price": 92.0
+    },
+    "expiry_date": "2026-07-10",
+    "quantity": 30,
+    "purchase_price": 92.0,
+    "added_date": "2025-12-03"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "_default": {
+    "1": {
+      "name": "Super Admin",
+      "username": "admin",
+      "password": "123",
+      "role": "Admin"
+    }
+  }
+}
